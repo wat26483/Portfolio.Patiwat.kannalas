@@ -1,0 +1,100 @@
+.footer-container {
+    background-color: #191919;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    padding: 16px 0 0 0;
+}
+
+.box-container {
+    padding: 23px 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme p a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.aboutme p a:hover {
+    color: #ECDBBA;
+    font-size: 23px;
+}
+
+.aboutme p {
+    padding-top: 8px;
+}
+
+.aboutme h2 {
+    color: #ECDBBA;
+    text-transform: uppercase;
+}
+
+.contact-me h2 {
+    color: #ECDBBA;
+    text-transform: uppercase;
+}
+
+.button-Contact {
+    margin: 16px;
+    background: #C84B31;
+    border: 1px solid #C84B31;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-Contact:hover,
+.button-Contact:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #C84B31;
+}
+
+.button-Contact:active {
+    opacity: .5;
+}
+
+.social-icon {
+    cursor: pointer;
+    padding: 10px 0;
+}
+.social-icon svg{
+
+    margin: 8px;
+    color: #ECDBBA;
+}
+.mail{
+    user-select:text;
+    padding: 8px 0;
+}
+@media only screen and (max-width: 620px) {
+    .box-container{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme,.contact-me{
+        padding: 16px 0;
+    }
+  }

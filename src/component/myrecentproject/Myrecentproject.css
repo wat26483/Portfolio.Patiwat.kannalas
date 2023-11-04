@@ -1,0 +1,79 @@
+.container-Myrecentproject {
+    margin-top: 80px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.project {
+    margin-top: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 90vw;
+}
+
+.project>.card {
+    cursor: pointer;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 16px;
+    margin: 8px 16px;
+    border-radius: 16px;
+    border: 3px solid #ECDBBA;
+    box-shadow: 0 4px 8px 0 rgba(247, 247, 247, 0.375), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project>.card:hover {
+    border: 3px solid #C84B31;
+    box-shadow: 0 8px 16px 0 rgba(247, 247, 247, 0.375), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project>.card>.text-title {
+    width: 100%;
+    text-align: center;
+    
+}
+.card>.btn{
+    text-align: center;
+}
+.card>.btn>button{
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin: 0;
+    border: 3px solid #000;
+    
+}
+.card>.btn>button:hover{
+    background-color:transparent;
+    border: 3px solid #ECDBBA;
+    padding: 6px 12px;
+    box-shadow: 0 4px 4px 0 rgba(247, 247, 247, 0.375), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.project>.card>.text-title>p {
+    padding-top: 10px;
+    margin: 0;
+}
+.card>.btn>button>a{
+    color: #000;
+    text-decoration: none;
+}
+.card>.btn>button>a:hover{
+    color: #ECDBBA;
+
+}
+.text-title>h2:hover{
+    color: #C84B31;
+}
