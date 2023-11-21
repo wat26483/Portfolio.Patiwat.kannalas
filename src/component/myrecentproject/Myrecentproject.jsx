@@ -5,6 +5,7 @@ import readux from '../../assets/redux.png'
 import MERN from '../../assets/MERN.png'
 import Authentication from '../../assets/Authentication.png'
 import linenotify from '../../assets/linenotify.png'
+import chart from '../../assets/chart.png'
 import { AiFillGithub } from "react-icons/ai";
 
 function Myrecentproject() {
@@ -64,6 +65,17 @@ function Myrecentproject() {
                     </div>
                     <div className="btn">
                         <button><a href="https://github.com/wat26483/api-contactme" target="_blank" rel="noopener noreferrer"><AiFillGithub/> GITHUB</a></button>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={chart} alt='chart' width={250} />
+                    <div className="text-title">
+                        <h2>Population growth 1950 to 2021</h2>
+                        <p>This project was created for use react chart js get data Population growth 1950 to 2021 form NodeJS mongoDB </p>
+                    </div>
+                    <div className="btn">
+                        <button><a href="https://github.com/wat26483/Population-growth-country-1950-2021" target="_blank" rel="noopener noreferrer"><AiFillGithub/> GITHUB</a></button>
+                        <button><a href="https://population-growth-country-1950-2021.vercel.app/" target="_blank" rel="noopener noreferrer">GET LINK</a></button>
                     </div>
                 </div>
             </div>
