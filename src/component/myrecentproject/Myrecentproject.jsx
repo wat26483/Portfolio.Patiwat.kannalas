@@ -6,6 +6,7 @@ import MERN from '../../assets/MERN.png'
 import Authentication from '../../assets/Authentication.png'
 import linenotify from '../../assets/linenotify.png'
 import chart from '../../assets/chart.png'
+import amethyst from '../../assets/Amethyst_Solustion.png'
 import { AiFillGithub } from "react-icons/ai";
 
 function Myrecentproject() {
@@ -59,7 +60,7 @@ function Myrecentproject() {
                 </div>
                 <div className="card">
                     <img src={linenotify} alt='linenotify' width={250} />
-                    <div className="text-title">
+                    <div className="text-title"> 
                         <h2>LINE notify API</h2>
                         <p>This project was created for funny use only me for notifications a LINE chat me and update database. When someone contacts me by this web portfolio </p>
                     </div>
@@ -76,6 +77,17 @@ function Myrecentproject() {
                     <div className="btn">
                         <button><a href="https://github.com/wat26483/Population-growth-country-1950-2021" target="_blank" rel="noopener noreferrer"><AiFillGithub/> GITHUB</a></button>
                         <button><a href="https://population-growth-country-1950-2021.vercel.app/" target="_blank" rel="noopener noreferrer">GET LINK</a></button>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={amethyst} alt='amethyst' width={250} />
+                    <div className="text-title">
+                        <h2>Amethyst_Solustion</h2>
+                        <p>this project was created for test skill frontend</p>
+                    </div>
+                    <div className="btn">
+                        <button><a href="https://github.com/wat26483/test_frontend_Amethyst_Solustion" target="_blank" rel="noopener noreferrer"><AiFillGithub/> GITHUB</a></button>
+                        <button><a href="https://test-frontend-amethyst-solustion.vercel.app/" target="_blank" rel="noopener noreferrer">GET LINK</a></button>
                     </div>
                 </div>
             </div>
